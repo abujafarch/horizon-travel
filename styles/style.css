@@ -96,6 +96,20 @@ nav .menu-icon {
     background-color: #ffffff4d;
     padding: 16px;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-items input, select, button{
+    -webkit-appearance: none;
+    padding: 16px;
+    font-size: 1rem;
+    color: #13131880;
+    width: 174px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
 }
 
 
