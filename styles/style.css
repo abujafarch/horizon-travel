@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter:wght@300;400;500;600;700;800&family=Josefin+Sans:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Manrope:wght@200;300;400;500;600;700&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Salsa&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
 /* shared styles here  */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
@@ -13,51 +13,94 @@ p {
 
 
 /* header section styles */
-.header{
+.header {
     max-width: 1170px;
     padding: 52px 35px 0;
     margin: 0 auto;
 }
 
 /* nav section styles  */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav .logo{
+
+nav .logo {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-nav .logo h2{
+
+nav .logo h2 {
     font-size: 2.25rem;
     font-weight: 800;
 }
-nav .logo h2 span{
+
+nav .logo h2 span {
     color: #FF5400;
 }
-nav .menu-item{
+
+nav .menu-item {
     display: flex;
     gap: 40px;
 }
-nav .menu-item a{
+
+nav .menu-item a {
     text-decoration: none;
     color: #424247;
     font-size: 1.125rem;
 }
-nav .menu-item .home{
+
+nav .menu-item .home {
     color: #FF5400;
     font-weight: 700;
 }
-nav .menu-icon{
+
+nav .menu-icon {
     display: none;
 }
 
 /* banner section styles  */
-.banner{
-    background-image: url('../Images/group-13.png');
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    border-radius: 25px;
+    background-size: cover;
+    margin-top: 50px;
+    background-image: linear-gradient(180deg, #131318cc 0%, #13131800 100%), url('../Images/group-13.png');
+    background-position: center;
 }
+
+.banner-title {
+    color: #FFF;
+    margin-bottom: 1.5rem;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-para {
+    width: 60%;
+    margin-bottom: 3rem;
+    line-height: 26px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input-items{
+    background-color: #ffffff4d;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+
+
 
 
 
@@ -70,22 +113,25 @@ nav .menu-icon{
 
 /* mobile device media query */
 @media screen and (max-width:600px) {
-    .header{
+    .header {
         padding: 25px 20px 0;
     }
 
     /* nav section styles  */
-    nav .menu-item{
+    nav .menu-item {
         display: none;
     }
-    nav .menu-icon{
+
+    nav .menu-icon {
         display: block;
         font-size: 18px;
     }
-    nav .logo img{
+
+    nav .logo img {
         width: 28px;
     }
-    nav .logo h2{
+
+    nav .logo h2 {
         font-size: 22px;
     }
 
@@ -93,17 +139,18 @@ nav .menu-icon{
 
 /* tablet device media query */
 @media screen and (min-width:600px) and (max-width:992px) {
-    .header{
+    .header {
         padding: 35px 30px 0;
     }
 
     /* nav section styles  */
-    nav .menu-item{
+    nav .menu-item {
         display: none;
     }
-    nav .menu-icon{
+
+    nav .menu-icon {
         display: block;
         font-size: 28px;
     }
-    
+
 }
