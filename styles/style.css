@@ -378,18 +378,18 @@ select,
 .discount-same {
     margin-left: 55px;
     right: 55px;
-    top: 71px;
+    top: 74px;
 }
 
 .discount-unique {
     margin-right: 55px;
     left: 55px;
-    top: 71px;
+    top: 74px;
 }
 
 .discount-title {
     color: #131318;
-    margin-bottom: 16px;
+    margin: 16px 0 18px;
     font-size: 24px;
     font-weight: 800;
 }
@@ -416,7 +416,6 @@ select,
     color: #FF5400;
     margin-right: 8px;
     font-size: 20px;
-    margin-bottom: 25px;
 }
 
 .packages-btn {
@@ -766,7 +765,6 @@ footer {
     }
     .discount-items {
         height: 650px;
-        /* position: static; */
     }
 
     .discount-unique {
@@ -783,7 +781,7 @@ footer {
         right: 20px;
         margin-left: 0;
         left: 20px;
-        top:150px;
+        top:170px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -801,8 +799,6 @@ footer {
         flex-wrap: wrap;
         gap: 15px;
     }
-
-    .short-details p {}
 
     .book-now {
         padding: 11px 18px;
@@ -993,6 +989,13 @@ footer {
 
     .choose-us h2 {
         font-size: 30px;
+    }
+
+
+    /* deals and discount section styles  */
+    .short-details {
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
     /* customar review section styles  */
