@@ -766,18 +766,19 @@ footer {
     }
     .discount-items {
         height: 600px;
-        position: static;
+        /* position: static; */
     }
 
     .discount-cart {
         max-width: 400px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         /* bottom:20px;
         right: 30px;
         left: 30px;
         top:100px; */
-        margin-top: 50px;
-        position: static;
+        /* margin-top: 50px; */
+        box-sizing: content-box;
+        /* position: static; */
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -799,7 +800,8 @@ footer {
     .short-details p {}
 
     .book-now {
-        margin-top: auto;
+        padding: 11px 18px;
+        font-size: 18px;
     }
 
 
