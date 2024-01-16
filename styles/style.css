@@ -202,9 +202,8 @@ select,
 
 
 /* destination section styles */
-.destination {
+.destination {}
 
-}
 .section-title {
     text-align: center;
     color: #131318;
@@ -288,7 +287,56 @@ select,
     grid-column: 8 / span 9;
 }
 
+/* service section started here  */
+.service {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
 
+.service-1 {
+    grid-column: 1 / span 2;
+    background-color: #fbb5630d;
+    border: 1px solid #fbb56333;
+    border-radius: 16px;
+}
+
+.service-2 {
+    grid-column: 3 / span 2;
+    background-color: #29cef60d;
+    border: 1px solid #29cef633;
+    border-radius: 16px;
+}
+
+.service-3 {
+    grid-column: 2 / span 2;
+    background-color: #fbb5630d;
+    border: 1px solid #fbb56333;
+    border-radius: 16px;
+}
+
+.service-item {
+    padding: 32px;
+}
+
+.service-item img {
+    width: 64px;
+    margin-bottom: 32px;
+}
+
+.service-item h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.service-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 
 
@@ -316,6 +364,7 @@ select,
         font-weight: 800;
         margin-bottom: 16px;
     }
+
     .section-para {
         text-align: center;
         font-size: 14px;
@@ -390,9 +439,10 @@ select,
     }
 
     /* destination section styles  */
-    .destination{
+    .destination {
         margin-top: 28px;
     }
+
     .image-grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -408,6 +458,18 @@ select,
     .img-item h1 {
         font-size: 20px;
         top: 78px;
+    }
+
+    /* why choose us section styles */
+    .choose-us{
+        margin-top: 30px;
+    }
+    .service{
+        margin-top: 16px;
+        grid-template-columns: 1fr;
+    }
+    .service-item{
+        grid-column: 1 / span 1;
     }
 }
 
@@ -475,7 +537,7 @@ select,
     ul li {
         font-size: 14px;
     }
-    
+
     /* destination section styles  */
     .image-grid {
         gap: 12px;
@@ -488,5 +550,20 @@ select,
     .img-item h1 {
         font-size: 22px;
         top: 89px;
+    }
+
+    .choose-us{
+        margin-top: 50px;
+    }
+    .service{
+        margin-top: 24px;
+        grid-template-columns: 90%;
+        justify-content: center;
+    }
+    .service-item{
+        grid-column: 1 / span 1;
+    }
+    .choose-us h2{
+        font-size: 30px;
     }
 }
