@@ -422,7 +422,46 @@ select,
     width: 240px;
 }
 
+/* customer review section styles  */
 
+.customer-review{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 30px;
+}
+.review-cart{
+    padding: 20px;
+    background-color: #ff55009d;
+    border: 2px solid #ff550071;
+    border-radius: 10px;
+    color: white;
+}
+.review-cart img{
+    width: 100px;
+    position: relative;
+    bottom: 85px;
+    border: 10px solid #eb5353;
+    border-radius: 50%;
+}
+.review-cart h2{
+    color: white;
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: -70px;
+}
+.review-cart .rating i{
+    text-align: center;
+    color: #fde400;
+    font-size: 24px;
+    margin: 20px auto;
+}
+.review-cart p{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
 
@@ -596,6 +635,13 @@ select,
     .book-now{
         margin-top: auto;
     }
+
+
+    /* customar review section styles  */
+    .customer-review{
+        flex-direction: column;
+        gap: 80px;
+    }
 }
 
 
@@ -695,9 +741,9 @@ select,
         font-size: 30px;
     }
 
-    /* deals & discount section styles  */
-    /* .discount-items{
-        height: 500px;
-        background-image: url('../Images/group-39.png');
-    } */
+    /* customar review section styles  */
+    .customer-review{
+        flex-direction: column;
+        gap: 80px;
+    }
 }
