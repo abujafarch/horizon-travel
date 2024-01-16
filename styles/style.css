@@ -126,6 +126,7 @@ select,
     color: #13131880;
     width: 174px;
     outline: none;
+    background-color: white;
     border: none;
     border-radius: 8px;
     font-weight: 400;
