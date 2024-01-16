@@ -81,6 +81,7 @@ nav .menu-icon {
     font-family: Mulish;
     font-size: 64px;
     font-weight: 800;
+    text-align: center;
 }
 
 .banner-para {
@@ -102,7 +103,7 @@ nav .menu-icon {
 }
 
 .input-items input, select, button{
-    -webkit-appearance: none;
+    box-sizing: border-box;
     padding: 16px;
     font-size: 1rem;
     color: #13131880;
@@ -110,8 +111,21 @@ nav .menu-icon {
     outline: none;
     border: none;
     border-radius: 8px;
+    font-weight: 400;
 }
-
+.input-items select{
+    cursor: pointer;
+    border-right: 12px solid white;
+}
+.input-items button {
+    background-color: #FF5400;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+.input-items button i{
+    margin-right: 8px;
+}
 
 
 
@@ -149,7 +163,29 @@ nav .menu-icon {
         font-size: 22px;
     }
 
+    /* banner section styles  */
+    .banner{
+        height: 550px ;
+    }
+    .banner-title{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .banner-para{
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 2rem;
+        line-height: 20px;
+    }
+    .input-items{
+        flex-direction: column;
+    }
+    .input-items input, select, button{
+        width: 225px;
+    }
+
 }
+
 
 /* tablet device media query */
 @media screen and (min-width:600px) and (max-width:992px) {
@@ -167,4 +203,23 @@ nav .menu-icon {
         font-size: 28px;
     }
 
+    /* banner section styles  */
+    .banner-title{
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+    .banner-para{
+        font-size: 16px;
+        width: 90%;
+        margin-bottom: 2rem;
+        line-height: 20px;
+    }
+    .input-items{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        gap: 20px;
+    }
+    .input-items input, select, button{
+        width: 200px;
+    }
 }
