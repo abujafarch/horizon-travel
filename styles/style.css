@@ -338,6 +338,94 @@ select,
     line-height: 26px;
 }
 
+/* deals & discount section styles */
+.discount{
+    margin-top: 48px;
+}
+
+.dis-item-1{
+    background-image: url('../Images/group-39.png');
+    background-size: cover;
+}
+.dis-item-2{
+    background-image: url('../Images/group-40.png');
+    background-size: cover;
+}
+.dis-item-3{
+    background-image: url('../Images/group-13.png');
+    background-size: cover;
+}
+
+.discount-items {
+    margin-top: 24px;
+    position: relative;
+    border-radius: 16px;
+    height: 500px;
+}
+
+.discount-cart {
+    position: absolute;
+    background-color: #ffffffcc;
+    box-sizing: border-box;
+    padding: 35px 40px 30px;
+    max-width: 580px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+.discount-same{
+    margin-left: 55px;
+    right: 55px;
+    top: 71px;
+}
+.discount-unique{
+    margin-right: 55px;
+    left: 55px;
+    top: 71px;
+}
+
+.discount-title {
+    color: #131318;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.discount-para {
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.discount-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.short-details {
+    display: flex;
+    gap: 24px;
+}
+
+.short-details p i {
+    color: #FF5400;
+    margin-right: 8px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.packages-btn{
+    margin: 3rem auto 0;
+    text-align: center;
+}
+.all-package{
+    width: 240px;
+}
+
+
+
+
+
 
 
 
@@ -461,15 +549,52 @@ select,
     }
 
     /* why choose us section styles */
-    .choose-us{
+    .choose-us {
         margin-top: 30px;
     }
-    .service{
+
+    .service {
         margin-top: 16px;
         grid-template-columns: 1fr;
     }
-    .service-item{
+
+    .service-item {
         grid-column: 1 / span 1;
+    }
+
+    /* deals & discount section styles  */
+
+    .discount-items{
+        height: 600px;
+        position: static;
+    }
+    .discount-cart{
+        max-width: 400px;
+        margin:0 auto ;
+        /* bottom:20px;
+        right: 30px;
+        left: 30px;
+        top:100px; */
+        margin-top: 50px;
+        position: static;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .discount-title{
+        margin-bottom: 10px;
+    }
+    .discount-para{
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .short-details{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .short-details p{
+    }
+    .book-now{
+        margin-top: auto;
     }
 }
 
@@ -552,18 +677,27 @@ select,
         top: 89px;
     }
 
-    .choose-us{
+    .choose-us {
         margin-top: 50px;
     }
-    .service{
+
+    .service {
         margin-top: 24px;
         grid-template-columns: 90%;
         justify-content: center;
     }
-    .service-item{
+
+    .service-item {
         grid-column: 1 / span 1;
     }
-    .choose-us h2{
+
+    .choose-us h2 {
         font-size: 30px;
     }
+
+    /* deals & discount section styles  */
+    /* .discount-items{
+        height: 500px;
+        background-image: url('../Images/group-39.png');
+    } */
 }
