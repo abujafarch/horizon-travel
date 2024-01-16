@@ -42,18 +42,18 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo {
+.logo {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-nav .logo h2 {
+.logo h2 {
     font-size: 2.25rem;
     font-weight: 800;
 }
 
-nav .logo h2 span {
+.logo h2 span {
     color: #FF5400;
 }
 
@@ -483,7 +483,7 @@ select,
 
 .newsletter-box {
     width: 40%;
-    padding:30px 40px;
+    padding: 30px 40px;
     box-sizing: border-box;
     border: 1px solid #FF5400;
     border-radius: 16px;
@@ -503,13 +503,15 @@ select,
     line-height: 26px;
     margin-bottom: 16px;
 }
-.newsletter-box hr{
+
+.newsletter-box hr {
     border: none;
     height: 1px;
     background-color: rgba(19, 19, 24, 0.10);
     margin-bottom: 14px;
 }
-.newsletter-box input{
+
+.newsletter-box input {
     padding: 16px 20px;
     width: 100%;
     box-sizing: border-box;
@@ -521,21 +523,25 @@ select,
     background-color: #1313180d;
     border-radius: 8px;
 }
-.newsletter-box .subscribe-btn{
+
+.newsletter-box .subscribe-btn {
     background-color: #FF5400;
     color: white;
     font-size: 20px;
     font-weight: 800;
     text-align: center;
 }
-.newsletter-img{
+
+.newsletter-img {
     position: relative;
     width: 55%;
 }
-.newsletter-img img{
+
+.newsletter-img img {
     width: 100%;
 }
-.newsletter-img .tag{
+
+.newsletter-img .tag {
     position: absolute;
     transform: rotate(-22deg);
     bottom: 60px;
@@ -547,13 +553,70 @@ select,
     text-align: center;
     display: inline-block;
 }
-.newsletter-img .tag h3{
+
+.newsletter-img .tag h3 {
     font-size: 28px;
     font-weight: 800;
 }
-.newsletter-img .tag p{
+
+.newsletter-img .tag p {
     color: white;
     font-size: 22px;
+}
+
+/* footer section styles */
+footer {
+    background-color: #1313180d;
+}
+
+.footer {
+    padding: 110px 80px;
+    box-sizing: border-box;
+}
+
+.horizon-logo {
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.horizon-logo img {
+    width: 40px;
+}
+
+.horizon-logo h2 {
+    font-size: 32px;
+}
+
+.footer p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer .all-right {
+    margin: 0 auto;
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: #1313181a;
+    margin-bottom: 50px;
+}
+
+.social-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.social-links a {
+    color: #131318;
+    font-size: 24px;
 }
 
 
@@ -744,38 +807,77 @@ select,
 
 
     /* newsletter section styles  */
-    .newsletter{
+    .newsletter {
         flex-direction: column;
         gap: 30px;
     }
-    .newsletter-box{
+
+    .newsletter-box {
         width: 100%;
         padding: 24px;
     }
-    .newsletter-box h3{
+
+    .newsletter-box h3 {
         font-size: 20px;
     }
-    .newsletter-box p{
+
+    .newsletter-box p {
         font-size: 14px;
     }
-    .newsletter-box hr{
+
+    .newsletter-box hr {
         margin-bottom: 0;
     }
-    .newsletter-img{
+
+    .newsletter-img {
         width: 100%;
     }
-    .newsletter-img .tag{
+
+    .newsletter-img .tag {
         padding: 15px 20px;
     }
-    .newsletter-img .tag h3{
+
+    .newsletter-img .tag h3 {
         font-size: 20px;
     }
-    .newsletter-img .tag p{
+
+    .newsletter-img .tag p {
         font-size: 1rem;
     }
 
-    .newsletter-img .tag{
+    .newsletter-img .tag {
         bottom: 40px;
+    }
+
+    /* footer section styles */
+    .footer {
+        padding: 32px 20px;
+        box-sizing: border-box;
+    }
+    .horizon-logo img {
+        width: 28px;
+    }
+
+    .horizon-logo h2 {
+        font-size: 22px;
+    }
+
+    .footer .all-right {
+        margin: 0 auto;
+    }
+
+    .footer hr {
+        border: none;
+        height: 1px;
+        background-color: #1313181a;
+        margin-bottom: 24px;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 24px;
     }
 
 }
