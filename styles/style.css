@@ -765,20 +765,25 @@ footer {
         margin-top: 24px;
     }
     .discount-items {
-        height: 600px;
+        height: 650px;
         /* position: static; */
     }
 
-    .discount-cart {
-        max-width: 400px;
-        /* margin: 0 auto; */
-        /* bottom:20px;
-        right: 30px;
-        left: 30px;
-        top:100px; */
-        /* margin-top: 50px; */
-        box-sizing: content-box;
-        /* position: static; */
+    .discount-unique {
+        max-width: 600px;
+        right: 20px;
+        margin-right: 0;
+        left: 20px;
+        top:150px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .discount-same {
+        max-width: 600px;
+        right: 20px;
+        margin-left: 0;
+        left: 20px;
+        top:150px;
         padding-left: 20px;
         padding-right: 20px;
     }
