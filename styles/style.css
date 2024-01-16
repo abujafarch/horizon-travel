@@ -296,6 +296,8 @@ select,
 
 
 
+
+
 /* media query styles here  */
 
 /* mobile device media query */
@@ -309,11 +311,13 @@ select,
     }
 
     .section-title {
+        text-align: center;
         font-size: 20px;
         font-weight: 800;
         margin-bottom: 16px;
     }
     .section-para {
+        text-align: center;
         font-size: 14px;
     }
 
