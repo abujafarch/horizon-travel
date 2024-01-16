@@ -675,6 +675,7 @@ footer {
     /* banner section styles  */
     .banner {
         height: 550px;
+        margin-top: 18px;
     }
 
     .banner-title {
@@ -702,6 +703,7 @@ footer {
     /* .popular-tour section styles  */
     .popular-tour {
         flex-direction: column;
+        margin-top: 24px;
         gap: 24px;
     }
 
@@ -759,7 +761,9 @@ footer {
     }
 
     /* deals & discount section styles  */
-
+    .deals-discount{
+        margin-top: 24px;
+    }
     .discount-items {
         height: 600px;
         position: static;
@@ -800,6 +804,9 @@ footer {
 
 
     /* customar review section styles  */
+    .client-review{
+        margin-top: 28px;
+    }
     .customer-review {
         flex-direction: column;
         gap: 80px;
@@ -810,6 +817,7 @@ footer {
     .newsletter {
         flex-direction: column;
         gap: 30px;
+        margin-top: 24px;
     }
 
     .newsletter-box {
@@ -851,6 +859,7 @@ footer {
 
     /* footer section styles */
     .footer {
+        margin-top: 24px;
         padding: 32px 20px;
         box-sizing: border-box;
     }
