@@ -339,19 +339,21 @@ select,
 }
 
 /* deals & discount section styles */
-.discount{
+.discount {
     margin-top: 48px;
 }
 
-.dis-item-1{
+.dis-item-1 {
     background-image: url('../Images/group-39.png');
     background-size: cover;
 }
-.dis-item-2{
+
+.dis-item-2 {
     background-image: url('../Images/group-40.png');
     background-size: cover;
 }
-.dis-item-3{
+
+.dis-item-3 {
     background-image: url('../Images/group-13.png');
     background-size: cover;
 }
@@ -372,12 +374,14 @@ select,
     border: 2px solid white;
     border-radius: 16px;
 }
-.discount-same{
+
+.discount-same {
     margin-left: 55px;
     right: 55px;
     top: 71px;
 }
-.discount-unique{
+
+.discount-unique {
     margin-right: 55px;
     left: 55px;
     top: 71px;
@@ -414,54 +418,144 @@ select,
     font-size: 20px;
     margin-bottom: 25px;
 }
-.packages-btn{
+
+.packages-btn {
     margin: 3rem auto 0;
     text-align: center;
 }
-.all-package{
+
+.all-package {
     width: 240px;
 }
 
 /* customer review section styles  */
 
-.customer-review{
+.customer-review {
     margin-top: 75px;
     margin-bottom: 50px;
     display: flex;
     gap: 30px;
 }
-.review-cart{
+
+.review-cart {
     padding: 20px;
     background-color: #ff55009d;
     border: 2px solid #ff550071;
     border-radius: 10px;
     color: white;
 }
-.review-cart img{
+
+.review-cart img {
     width: 100px;
     position: relative;
     bottom: 85px;
     border: 10px solid #eb5353;
     border-radius: 50%;
 }
-.review-cart h2{
+
+.review-cart h2 {
     color: white;
     font-weight: 800;
     font-size: 28px;
     margin-top: -70px;
 }
-.review-cart .rating i{
+
+.review-cart .rating i {
     text-align: center;
     color: #fde400;
     font-size: 24px;
     margin: 20px auto;
 }
-.review-cart p{
+
+.review-cart p {
     color: white;
     text-align: justify;
     font-size: 18px;
     font-weight: 600;
 }
+
+/* newsletter section styles */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-box {
+    width: 40%;
+    padding:30px 40px;
+    box-sizing: border-box;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+
+.newsletter-box h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter-box p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.newsletter-box hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(19, 19, 24, 0.10);
+    margin-bottom: 14px;
+}
+.newsletter-box input{
+    padding: 16px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: #1313184d;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #1313180d;
+    border-radius: 8px;
+}
+.newsletter-box .subscribe-btn{
+    background-color: #FF5400;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.newsletter-img{
+    position: relative;
+    width: 55%;
+}
+.newsletter-img img{
+    width: 100%;
+}
+.newsletter-img .tag{
+    position: absolute;
+    transform: rotate(-22deg);
+    bottom: 60px;
+    right: 20px;
+    background-color: #FF5400;
+    border-radius: 16px;
+    padding: 20px 30px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.newsletter-img .tag h3{
+    font-size: 28px;
+    font-weight: 800;
+}
+.newsletter-img .tag p{
+    color: white;
+    font-size: 22px;
+}
+
 
 
 
@@ -603,13 +697,14 @@ select,
 
     /* deals & discount section styles  */
 
-    .discount-items{
+    .discount-items {
         height: 600px;
         position: static;
     }
-    .discount-cart{
+
+    .discount-cart {
         max-width: 400px;
-        margin:0 auto ;
+        margin: 0 auto;
         /* bottom:20px;
         right: 30px;
         left: 30px;
@@ -619,29 +714,70 @@ select,
         padding-left: 20px;
         padding-right: 20px;
     }
-    .discount-title{
+
+    .discount-title {
         margin-bottom: 10px;
     }
-    .discount-para{
+
+    .discount-para {
         margin-bottom: 10px;
         line-height: 20px;
     }
-    .short-details{
+
+    .short-details {
         flex-wrap: wrap;
         gap: 15px;
     }
-    .short-details p{
-    }
-    .book-now{
+
+    .short-details p {}
+
+    .book-now {
         margin-top: auto;
     }
 
 
     /* customar review section styles  */
-    .customer-review{
+    .customer-review {
         flex-direction: column;
         gap: 80px;
     }
+
+
+    /* newsletter section styles  */
+    .newsletter{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .newsletter-box{
+        width: 100%;
+        padding: 24px;
+    }
+    .newsletter-box h3{
+        font-size: 20px;
+    }
+    .newsletter-box p{
+        font-size: 14px;
+    }
+    .newsletter-box hr{
+        margin-bottom: 0;
+    }
+    .newsletter-img{
+        width: 100%;
+    }
+    .newsletter-img .tag{
+        padding: 15px 20px;
+    }
+    .newsletter-img .tag h3{
+        font-size: 20px;
+    }
+    .newsletter-img .tag p{
+        font-size: 1rem;
+    }
+
+    .newsletter-img .tag{
+        bottom: 40px;
+    }
+
 }
 
 
@@ -742,7 +878,7 @@ select,
     }
 
     /* customar review section styles  */
-    .customer-review{
+    .customer-review {
         flex-direction: column;
         gap: 80px;
     }
