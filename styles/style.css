@@ -202,9 +202,10 @@ select,
 
 
 /* destination section styles */
-.destination {}
+.destination {
 
-.destination-title {
+}
+.section-title {
     text-align: center;
     color: #131318;
     font-size: 40px;
@@ -212,7 +213,7 @@ select,
     margin-bottom: 1.5rem;
 }
 
-.destination-para {
+.section-para {
     text-align: center;
     max-width: 650px;
     margin: 0 auto;
@@ -307,6 +308,15 @@ select,
         padding: 0 20px;
     }
 
+    .section-title {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+    .section-para {
+        font-size: 14px;
+    }
+
     /* nav section styles  */
     nav .menu-item {
         display: none;
@@ -376,9 +386,14 @@ select,
     }
 
     /* destination section styles  */
+    .destination{
+        margin-top: 28px;
+    }
     .image-grid {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 16px;
+        margin-top: 16px;
     }
 
     .img-item {
